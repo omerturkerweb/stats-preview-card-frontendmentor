@@ -29,6 +29,7 @@ body,
   height: 100%;
 }
 body {
+  overflow: hidden;
   background-color: var(--very-dark-blue);
 }
 #root {
