@@ -1,8 +1,8 @@
 export default function Layout() {
   return (
-    <div className="card-container cursor-pointer rounded-xl bg-[var(--dark-desaturated-blue)] w-[1080px] min-w-[965px] flex justify-between items-center">
-      <div className="card-container-description  p-14 w-[50%] pr-28 h-full flex flex-col items-center justify-center gap-y-5">
-        <h3 className="text-font-lexend-deca text-[30px] font-extrabold tracking-normal">
+    <div className="card-container cursor-pointer select-none min-w-[1070px] w-[1070px] bg-[var(--dark-desaturated-blue)] h-[445px] flex ">
+      <div className="card-container-description p-14 w-[50%]  pr-28 flex flex-col items-center justify-center gap-y-5">
+        <h3 className="description-text text-font-lexend-deca text-[30px] font-extrabold tracking-normal">
           Get <span className="text-[var(--soft-violet)]">insights</span> that
           help your business grow.
         </h3>
@@ -38,9 +38,10 @@ export default function Layout() {
         </div>
       </div>
 
-      <div className="card-container-image w-[50%] rounded-r-xl ">
+      <div className="card-container-image w-[50%] rounded-r-xl">
         <img
-          className=" rounded-r-xl"
+          alt="Stats Preview Card"
+          className="w-full h-full"
           src={require("../images/image-header-desktop.jpg")}
         ></img>
       </div>
